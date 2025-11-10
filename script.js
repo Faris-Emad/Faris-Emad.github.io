@@ -69,9 +69,9 @@ document.querySelectorAll('section, .skill-card, .project-card, .stat, .contact-
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
-        navbar.style.background = 'rgba(15, 23, 42, 0.98)';
+        navbar.style.background = 'rgba(0, 26, 77, 0.98)';
     } else {
-        navbar.style.background = 'rgba(15, 23, 42, 0.95)';
+        navbar.style.background = 'rgba(0, 26, 77, 0.95)';
     }
 });
 
