@@ -822,11 +822,29 @@ h1, h2, h3, .section-title {
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 1.3rem;
+        line-height: 1.6;
     }
 
     .hero h2 {
-        font-size: 1.5rem;
+        font-size: 0.85rem;
+    }
+    
+    .section-title {
+        font-size: 1rem;
+    }
+    
+    .skill-card h3,
+    .project-card h3,
+    .contact-item h3,
+    .stat h3 {
+        font-size: 0.7rem;
+    }
+    
+    /* Hide some decorative elements on mobile for performance */
+    .pixel-cloud,
+    .pixel-arch {
+        display: none;
     }
 
     .hero-buttons {
@@ -840,15 +858,29 @@ h1, h2, h3, .section-title {
 }
 
 @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 0.6rem;
+    }
+
     .hero h1 {
-        font-size: 2rem;
+        font-size: 1rem;
+        line-height: 1.6;
     }
 
     .hero h2 {
-        font-size: 1.2rem;
+        font-size: 0.75rem;
     }
 
     .hero p {
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        font-size: 0.85rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.75rem;
     }
 }
